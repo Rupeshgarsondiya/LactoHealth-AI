@@ -182,7 +182,7 @@ export default function LactoHealthLanding() {
             <section className="py-20 bg-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-16">
-                        <h2 className="text-4xl font-bold text-[#212121] mb-4">4 Reasons to Choose LactoHealth AI</h2>
+                        <h2 className="text-4xl font-bold text-[#212121] mb-4">Reasons to Choose LactoHealth AI</h2>
                         <p className="text-xl text-[#212121]/70">Advanced technology delivering measurable results for modern dairy farms</p>
                     </div>
                     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
