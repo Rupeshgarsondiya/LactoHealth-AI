@@ -1,7 +1,12 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
+
 export default function LactoHealthLanding() {
     const [isVisible, setIsVisible] = useState(false);
     const [activeTab, setActiveTab] = useState(0);
+    const navigate = useNavigate();
+
+    
 
     useEffect(() => {
         setIsVisible(true);
@@ -90,9 +95,22 @@ export default function LactoHealthLanding() {
                             <a href="#technology" className="text-[#212121] hover:text-[#7CB342] font-medium">Technology</a>
                             <a href="#about" className="text-[#212121] hover:text-[#7CB342] font-medium">About</a>
                             <a href="#contact" className="text-[#212121] hover:text-[#7CB342] font-medium">Contact</a>
-                            <button className="bg-[#7CB342] text-white px-6 py-2 rounded-lg hover:bg-[#7CB342]/90 font-medium">
-                                Get Demo
+                            <button
+                                type="button"
+                                onClick={() => navigate("/login")}
+                                className="w-full bg-lime-600 text-gray-50 py-3 px-2 rounded-md font-bold border border-yellow-900 hover:bg-green-800 hover:text-yellow-50 transition duration-200"
+                            >
+                                Login
                             </button>
+                            <button
+                                type="button"
+                                onClick={() => navigate("/signup")}
+                                className="w-full bg-lime-600 text-gray-50 py-3 px-2 rounded-md font-bold border border-yellow-900 hover:bg-green-800 hover:text-yellow-50 transition duration-200"
+                            >
+                                SignUp
+                            </button>
+
+
                         </nav>
                     </div>
                 </div>
@@ -182,7 +200,7 @@ export default function LactoHealthLanding() {
             <section className="py-20 bg-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-16">
-                        <h2 className="text-4xl font-bold text-[#212121] mb-4">Reasons to Choose LactoHealth AI</h2>
+                        <h2 className="text-4xl font-bold text-[#212121] mb-4">4 Reasons to Choose LactoHealth AI</h2>
                         <p className="text-xl text-[#212121]/70">Advanced technology delivering measurable results for modern dairy farms</p>
                     </div>
                     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
