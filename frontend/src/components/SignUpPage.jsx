@@ -338,7 +338,7 @@ const SignUpPage = () => {
           <p className="text-gray-600">
             <button
               type="button"
-              onClick={() => navigate("/landing")}
+              onClick={() => navigate("/")}
               className="text-lime-700 font-semibold hover:text-lime-800 transition-colors"
             >
               Back

@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "68c57579d6dd98c7cef02d8b"
+  },
+  "name": "Rupesh Garsondiya",
+  "email": null,
+  "mobile": "9904758150",
+  "country": "India",
+  "state": "Gujarat",
+  "city": "Surat",
+  "village": null,
+  "hashed_password": "$2b$12$0zl2ZaDRkCLFnDlbsHnHjudpDXiN01U1EufQ1zpR80uxFQDvPIRYm",
+  "created_at": {
+    "$date": "2025-09-13T13:45:29.008Z"
+  }
+}]
